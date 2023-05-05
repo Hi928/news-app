@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+  * {
+    @apply bg-slate-800 text-white px-0 py-0 mx-0 my-0 box-border;
+  }
+  a {
+    @apply text-inherit no-underline;
+  }
+}
